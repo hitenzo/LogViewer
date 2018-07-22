@@ -16,7 +16,6 @@ import { ServiceProxyModule } from '@shared/service-proxies/service-proxy.module
 import { SharedModule } from '@shared/shared.module';
 
 import { HomeComponent } from '@app/home/home.component';
-import { AboutComponent } from '@app/about/about.component';
 import { UsersComponent } from '@app/users/users.component';
 import { CreateUserComponent } from '@app/users/create-user/create-user.component';
 import { EditUserComponent } from './users/edit-user/edit-user.component';
@@ -38,7 +37,6 @@ import { MaterialInput } from '@shared/directives/material-input.directive';
     declarations: [
         AppComponent,
         HomeComponent,
-        AboutComponent,
         TenantsComponent,
 		CreateTenantComponent,
 		EditTenantComponent,
